@@ -1,11 +1,11 @@
-# promptlead_jd274
+# speculative_decode_hit_rate_length_profile
 
 **统计Prompt 工程负责人·投机解码的命中率各部分的长度占比并标出异常。**
 
-`promptlead_jd274` —— 按段落统计Prompt 工程负责人·投机解码的命中率相关的长度分布，标出过长、过短与重复表达的部分
+`speculative_decode_hit_rate_length_profile` —— 按段落统计Prompt 工程负责人·投机解码的命中率相关的长度分布，标出过长、过短与重复表达的部分
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`promptlead_jd274.py` 拷走就能用
+- 单文件，`speculative_decode_hit_rate_length_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install d0k0dy-promptlead_jd274
+pip install d0k0dy-speculative_decode_hit_rate_length_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-promptlead_jd274 --help
+speculative_decode_hit_rate_length_profile --help
 ```
 
-也可以不用安装，直接把 `promptlead_jd274.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `speculative_decode_hit_rate_length_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ promptlead_jd274 --help
 ## 用法
 
 ```bash
-python promptlead_jd274.py --file input.txt
-python promptlead_jd274.py --text "示例内容"
-python promptlead_jd274.py --file input.txt --json
+python speculative_decode_hit_rate_length_profile.py --file input.txt
+python speculative_decode_hit_rate_length_profile.py --text "示例内容"
+python speculative_decode_hit_rate_length_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python promptlead_jd274.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_promptlead_jd274.py
+python test_speculative_decode_hit_rate_length_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_promptlead_jd274.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/d0k0dy/promptlead_jd274>
+- GitHub 仓库：<https://github.com/d0k0dy/speculative_decode_hit_rate_length_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_promptlead_jd274.py
 d0k0dy 做Prompt 工程负责人·投机解码的命中率相关的问题，方向对标华为的架构Prompt 工程负责人岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://d0k0dy.github.io>
-- 仓库：<https://github.com/d0k0dy/promptlead_jd274>
+- 仓库：<https://github.com/d0k0dy/speculative_decode_hit_rate_length_profile>
 
 ## 许可
 

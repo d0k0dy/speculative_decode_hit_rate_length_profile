@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "d0k0dy-promptlead_jd274"
+name = "d0k0dy-speculative_decode_hit_rate_length_profile"
 version = "0.1.0"
 description = "按段落统计Prompt 工程负责人·投机解码的命中率相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://d0k0dy.github.io"
-Repository = "https://github.com/d0k0dy/promptlead_jd274"
-Issues = "https://github.com/d0k0dy/promptlead_jd274/issues"
+Repository = "https://github.com/d0k0dy/speculative_decode_hit_rate_length_profile"
+Issues = "https://github.com/d0k0dy/speculative_decode_hit_rate_length_profile/issues"
 
 [project.scripts]
-promptlead_jd274 = "promptlead_jd274:main"
+speculative_decode_hit_rate_length_profile = "speculative_decode_hit_rate_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["promptlead_jd274"]
+py-modules = ["speculative_decode_hit_rate_length_profile"]
